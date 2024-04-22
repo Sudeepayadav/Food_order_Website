@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>King Of Foods</title>
+    <link rel="stylesheet" href="food1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <a href="index.html" class="logo">
+          <ion-icon name="fast-food"></ion-icon> King Of Foods</a
+        >
+        <div class="box">
+          <div class="cart-count">0</div>
+          <ion-icon name="cart" id="cart-icon"></ion-icon>
+        </div>
+
+        <div class="cart">
+          <div class="cart-title">Cart Items</div>
+          <div class="cart-content">
+            <!-- <div class="cart-box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1h3ma9dVP0CKOSz2YG4G5UZs5B0Ym39VnA&usqp=CAU"
+                alt=""
+                class="cart-img"
+              />
+              <div class="detail-box">
+                <div class="cart-food-title">Special dosa</div>
+                <div class="price-box">
+                  <div class="cart-price">Rs.40</div>
+                  <div class="cart-amt">Rs.40</div>
+                </div>
+                <input type="number" value="1" class="cart-quantity" />
+              </div>
+              <ion-icon name="trash" class="cart-remove"></ion-icon>
+            </div>
+
+            <div class="cart-box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1h3ma9dVP0CKOSz2YG4G5UZs5B0Ym39VnA&usqp=CAU"
+                alt=""
+                class="cart-img"
+              />
+              <div class="detail-box">
+                <div class="cart-food-title">Special dosa</div>
+                <div class="price-box">
+                  <div class="cart-price">Rs.40</div>
+                  <div class="cart-amt">Rs.40</div>
+                </div>
+                <input type="number" value="1" class="cart-quantity" />
+              </div>
+              <ion-icon name="trash" class="cart-remove"></ion-icon>
+            </div> -->
+          </div>
+
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs.0</div>
+          </div>
+
+          <button class="btn-buy">Place Order</button>
+
+          <ion-icon name="close" id="cart-close"></ion-icon>
+        </div>
+      </div>
+    </header>
+
+    <div></div>
+
+    <div class="container">
+      <h2 class="title">The Rameshwaram Cafe</h2>
+      <div class="shop-content">
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="https://b.zmtcdn.com/data/reviews_photos/81d/3e499f822eea0345e1c2d6239fa8e81d_1632287870.jpg"
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Podi Idly</h2>
+          <span class="food-price">Rs.60</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="https://b.zmtcdn.com/data/reviews_photos/05c/da48a5f51f05967e9e249c801c03d05c_1649085371.jpg"
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Open-Masala Dosa</h2>
+          <span class="food-price">Rs.70</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyMRdumo0QjuImg68bT5eNBLtqOR2UBc44Q&usqp=CAU"
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Idly</h2>
+          <span class="food-price">Rs.50</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpJivCCXW_14iTjVaacn0ZXVVKG7EMv1Oteg&usqp=CAU"
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Masala Dosa</h2>
+          <span class="food-price">Rs.70</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="https://b.zmtcdn.com/data/reviews_photos/df4/dbe77524cb1f26b0708cf2ffe3dacdf4_1646755323.jpg"
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Rice-Item</h2>
+          <span class="food-price">Rs.60</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="https://im.whatshot.in/img/2021/Sep/242026191-1574829096212983-986511202998057540-n-cropped-1632201913.jpg"
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Vada</h2>
+          <span class="food-price">Rs.20</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="https://b.zmtcdn.com/data/reviews_photos/7a1/169d7475d3b5ebe217a4499d629f17a1_1649244065.jpg"
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Plain Dosa</h2>
+          <span class="food-price">Rs.50</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="https://curlytales.com/wp-content/uploads/2023/05/Untitled-design-2023-05-29T110254.379.jpg"
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Pudi Idly</h2>
+          <span class="food-price">Rs.60</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+      </div>
+    </div>
+
+    <footer class="foot">
+      <div>Contact us</div>
+      <div>+91 9876543210 || foods@gmail.com || bengaluru</div>
+    </footer>
+
+    <script src="foodjs.js"></script>
+  </body>
+</html>

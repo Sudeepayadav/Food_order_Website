@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>King Of Foods</title>
+    <link rel="stylesheet" href="food1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <a href="index.html" class="logo">
+          <ion-icon name="fast-food"></ion-icon> King Of Foods</a
+        >
+        <div class="box">
+          <div class="cart-count">0</div>
+          <ion-icon name="cart" id="cart-icon"></ion-icon>
+        </div>
+
+        <div class="cart">
+          <div class="cart-title">Cart Items</div>
+          <div class="cart-content">
+            <!-- <div class="cart-box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1h3ma9dVP0CKOSz2YG4G5UZs5B0Ym39VnA&usqp=CAU"
+                alt=""
+                class="cart-img"
+              />
+              <div class="detail-box">
+                <div class="cart-food-title">Special dosa</div>
+                <div class="price-box">
+                  <div class="cart-price">Rs.40</div>
+                  <div class="cart-amt">Rs.40</div>
+                </div>
+                <input type="number" value="1" class="cart-quantity" />
+              </div>
+              <ion-icon name="trash" class="cart-remove"></ion-icon>
+            </div>
+
+            <div class="cart-box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1h3ma9dVP0CKOSz2YG4G5UZs5B0Ym39VnA&usqp=CAU"
+                alt=""
+                class="cart-img"
+              />
+              <div class="detail-box">
+                <div class="cart-food-title">Special dosa</div>
+                <div class="price-box">
+                  <div class="cart-price">Rs.40</div>
+                  <div class="cart-amt">Rs.40</div>
+                </div>
+                <input type="number" value="1" class="cart-quantity" />
+              </div>
+              <ion-icon name="trash" class="cart-remove"></ion-icon>
+            </div> -->
+          </div>
+
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs.0</div>
+          </div>
+
+          <button class="btn-buy">Place Order</button>
+
+          <ion-icon name="close" id="cart-close"></ion-icon>
+        </div>
+      </div>
+    </header>
+
+    <div></div>
+
+    <div class="container">
+      <h2 class="title">Nandhana Palace</h2>
+      <div class="shop-content">
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="https://media.istockphoto.com/id/1292894074/photo/lamb%C2%A0haneeth%C2%A0is-a-traditional-dish-with-basmati-rice-close-up-in-a-frying-pan-horizontal.jpg?s=612x612&w=0&k=20&c=TDrjr5o4hhLmxgqzbCP2GBmGAUdGWzHwr9jFrM1OZiE="
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Biriyani</h2>
+          <span class="food-price">Rs.250</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="https://media.istockphoto.com/id/1320005396/photo/chicken-tikka-kebab.jpg?s=612x612&w=0&k=20&c=CeJ-Bq-TN9B9O7x3fejz_PVXy5YYv0VLqQp6C6hNyjc="
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Chicken Thandoori</h2>
+          <span class="food-price">Rs.400</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="http://nandhanarestaurants.com/wp-content/uploads/2023/04/Carrot-65.jpg"
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Kebab</h2>
+          <span class="food-price">Rs.200</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="http://nandhanarestaurants.com/wp-content/uploads/2023/04/Bamboo-Chicken-scaled-1-1024x678.jpg"
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Bamboo Biriyani</h2>
+          <span class="food-price">Rs.250</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="http://nandhanarestaurants.com/wp-content/uploads/2023/04/kalmi-kebab-full-scaled-1-1024x1024.jpg"
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Chicken Leg</h2>
+          <span class="food-price">Rs.200</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="http://nandhanarestaurants.com/wp-content/uploads/2023/04/Andhra-Chicken-Curry-scaled-1-1152x1536.jpeg"
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Chicken Curry</h2>
+          <span class="food-price">Rs.150</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="http://nandhanarestaurants.com/wp-content/uploads/2023/04/Chicken-Pepper-Roast.jpg"
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Pepper Chicken</h2>
+          <span class="food-price">Rs.250</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+
+        <div class="food-box">
+          <div class="pic">
+            <img
+              src="http://nandhanarestaurants.com/wp-content/uploads/2023/04/Andhra-Chilli-Chicken-1-1024x683.jpg"
+              class="food-img"
+            />
+          </div>
+          <h2 class="food-title">Chilli Chicken</h2>
+          <span class="food-price">Rs.240</span>
+          <ion-icon name="cart" class="add-cart"></ion-icon>
+        </div>
+      </div>
+    </div>
+
+    <footer class="foot">
+      <div>Contact us</div>
+      <div>+91 9876543210 || foods@gmail.com || bengaluru</div>
+    </footer>
+
+    <script src="foodjs.js"></script>
+  </body>
+</html>
